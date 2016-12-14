@@ -1,0 +1,21 @@
+li {
+	background: yellow;
+}
+h1:hover {
+	color:red;
+}
+a:link {
+	background: yellow
+}
+a:visited{
+	background: pink
+}
+a:hover{
+	background: lightgreen
+}
+a:active{
+	background: purple
+}
+li:empty{
+	background: brown 
+}
