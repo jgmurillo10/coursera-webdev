@@ -1,0 +1,51 @@
+h1 {
+	color:purple;
+}
+p {
+	color:blue;
+}
+#rainbowColors {
+	background: grey;
+}
+#red {
+	background: red;
+}
+#orange {
+	background: orange;
+}
+#yellow {
+	background: yellow;
+}
+#green {
+	background: green;
+}
+#blue {
+	background: blue;
+}
+#indigo {
+	background: indigo;
+}
+#violet {
+	background: violet;
+}
+
+/*.zappy{
+	color:purple;
+	background: yellow;
+}
+.wow {
+	color: blue;
+	background: lightgrey;
+}*/
+.zappy{
+	color: blue;
+}
+.spicy{
+	color:red;
+}
+.wow{
+	background: lime;
+}
+.lol{
+	background: lightgrey;
+}
