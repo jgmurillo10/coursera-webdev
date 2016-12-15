@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FILE</title>
+</head>
+<body>
+	<h1>Uploading files</h1>
+	<h2>Example 1</h2>
+	<form action="" method="" enctype="multipart/form-data">
+		
+		<input type="file" name="fileToUpload">
+		<br>
+		<input type="number" name="">
+		<input type="date" name="">
+		<input type="time" name="">
+		<input type="color" name="">
+		<input type="range" name="">
+
+		<input type="submit" name="">
+
+	</form>
+	<h2>Example 2</h2>
+	<form action="http://ihome.ust.hk/~rossiter/cgi-bin/show_everything.php">
+		<label for="age">Age:</label>
+		<input type="number" min="0" max="99" step="1" value="18" id="age" name="age" required><br>
+		
+		<label for="birthday"> Your birthday:</label>
+		<input type="date" id="birthday" name="birthday"><br>
+
+		<label for="wakeup">You want to wake up at:</label>
+		<input type="time" id="wakeup" name="wakeup"><br>
+			
+		<label for="color">Your favorite color:</label>
+		<input type="color" id="color" name="color"><br>
+
+		<label for="mood">Your mood:</label>
+		Bad<input type="range" min="0" max="100" step="5" value="50" id="mood" name="mood">Good <br>
+		<input type="submit" value="submit!">
+	</form>
+</body>	
+</html>
