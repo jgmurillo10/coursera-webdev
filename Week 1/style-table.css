@@ -1,0 +1,47 @@
+table, td, th{
+	border:1px solid black;
+	/*padding: 15px;*/
+
+}
+td{
+	color: purple;
+}
+.profit {
+	text-align: left;
+	background-color: lightblue;
+}
+.zero {
+	text-align: center;
+	background-color: yellow;
+}
+.loss{
+	text-align: right;
+	background-color: red;
+}
+table, td{
+	border:1px solid black;
+	width: 80%;
+	height: 80%;
+}
+td {
+	width: 33.33%;
+	height: 33.33%;
+}
+.t {
+	vertical-align: top;
+}
+.l {
+	text-align: left;
+}
+.m {
+	vertical-align: middle;
+}
+.c{
+	text-align: center;
+}
+.b{
+	vertical-align: bottom;
+}
+.r{
+	text-align: right;
+}
