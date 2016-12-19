@@ -91,6 +91,31 @@
 		</fieldset>
 		<fieldset>
 			<legend>
+				Your General Details	
+			</legend>
+			<div class="fields">
+				<label for="name">Name:</label>
+			<input type="text" name="name" id="name" required><br>
+			<label for="gender">Gender:</label><input type="radio" name="radio" id="gender" value="male">Male
+			<input type="radio" name="radio" id="gender" value="female">Female<br>
+			<label for="age">Age:</label>
+			<input type="number" min="0" name="age" id="age" step="1" required>
+			<br>
+			<label for="birth">Date of birth:</label>
+			<input type="date" name="birth" id="birth" required><br>
+			<label for="color">Color:</label>
+			<input type="color" name="color" id="color" required><br>
+			<label for="country">Which country:</label>
+			<select id="country" name="country" required>
+				<option value="colombia">Colombia</option>
+				<option value="eeuu">United States</option>
+				<option value="spain">Spain</option>
+			</select>
+
+			</div>
+		</fieldset>
+		<fieldset>
+			<legend>
 				Your Indicators
 			</legend>
 			<div class="fields">
